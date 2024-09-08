@@ -74,7 +74,6 @@ body{
     padding-bottom: 1px;
     border: #000000 solid 4px;
     margin-bottom: 20vh;
-
 }
 .cards-title{
     padding: 20px;
@@ -112,6 +111,11 @@ body{
 }
 #total{
     justify-content: center;
+}
+.tr-4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .dev{
     margin-left: 30px;
