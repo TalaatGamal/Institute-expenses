@@ -76,7 +76,10 @@ body{
     margin-bottom: 20vh;
 }
 .cards-title{
-    padding: 20px;
+    padding: 15px;
+    /* padding-top: 0px;
+    padding-bottom: 0px; */
+    /* width: 100%; */
 }
 .cards hr{
     width: 100%;
@@ -116,6 +119,9 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+.date{
+    font-size: 15px;
 }
 .dev{
     margin-left: 30px;
