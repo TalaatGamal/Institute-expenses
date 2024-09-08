@@ -125,6 +125,7 @@ body{
 .footer{
     /* background-color: #00246d8c; */
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -135,6 +136,10 @@ body{
     top: 92vh;
     left: 0px;
     width: 100vw;
+    gap: 40px;
+}
+.dashes{
+    display: none;
 }
 @media( max-width: 768px){
     .header{
@@ -161,5 +166,10 @@ body{
     }
     .footer{
         top: 0px;
+        gap: 20px;
+    }
+    .dashes{
+        display: block;
+        color: #00000000;
     }
 }
